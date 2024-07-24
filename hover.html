@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        div{
+            
+            height: 400px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: box-shadow 0.3s;
+        }
+
+        div:hover {
+            box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1) inset,
+            -10px -10px 12px rgb(255, 255, 255) inset;
+            cursor: pointer;
+        }
+
+        p{
+            font-family:
+             BlinkMacSystemFont, 'Segoe UI', Roboto,
+              Oxygen, Ubuntu, Cantarell, 'Open Sans',
+               'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+    </style>
+
+    <div>
+        <p>
+            Hover Me!
+        </p>
+    </div>
+</body>
+</html>
