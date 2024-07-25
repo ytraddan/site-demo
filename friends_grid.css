@@ -98,3 +98,13 @@ p {
 .add-friend-button:active {
     color: rgb(142, 197, 248);
 }
+
+a{
+    justify-content: end;
+    align-items: end;
+    background-color: #d3bfe6;
+    height: 20px;
+    color: #6f67e2;
+    padding: 6px;
+    border-radius: 10px;
+}
